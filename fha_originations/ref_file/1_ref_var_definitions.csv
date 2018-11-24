@@ -1,0 +1,18 @@
+var_name_friendly,var_name,var_description
+Property State,prop_st_abb,Section of the Act Code(SOA).  One or more ADP Codes are grouped under a Section of the Act.
+Property City,prop_city,"Current County Name, blank if address does not geocode using  Census 2000."
+Property County,prop_cnty,The official 2-letter US Postal Service abbreviation for the property state.
+Property Zip,prop_zip5,Postal zip code where the property is located.
+Origination Mortgagee/Sponsor Originator ,orig_nm,Identifies the parent company of the lender that originated the loan.  This 5-digit number remains unchanged even after the loan has been sold a number of times
+Originating Mortgagee Number,orig_id,Name of the originating lender.
+Sponsor Name,sponsor_nm,Mortgagee sponsoring the loan or mortgage for the originator. Sponsor Mortgagee underwrites the loan and decides whether the borrower represents an acceptable credit risk for HUD.
+Sponsor Number,sponsor_id,The 5-digit lender identification number of the parent company which is the sponsoring financial institution with direct endorsement approval.
+Down Payment Source,dp_src,"Values other than ""Borrower"" indicate the presence of downpayment assistance from an authorized source.  That assistance need not be for 100% of the downpayment for such other values to be used in the HUD data systems. This data element is provided to HUD by the originating lenders."
+Non Profit Number,non_profit_id,
+Product Type,prod_type,Identifies whether the loan has an adjustable rate mortgage.
+Loan Purpose,loan_purpose,A derived indicator that reflects whether the case is a refinanced loan.
+Property Type,prop_type,The official alphabetic 2-character US Postal Service state abbreviation for the property local associated with an FHA Mortgage Insurance application.
+Interest Rate,int_rate,"The Interest rate charged annually by the mortgagee,  in accordance with the mortgage note of deed of trust note Rate is established at the time of Firm Commitment."
+Original Mortgage Amount,orig_amt,"The actual insured amount of the mortgage as determined by statutory limitations, minimum requirements, loan value ratio limitation, and the original  requested amount plus any unpaid portions of mip if applicable.  The original amount of the mortgage is reported from the lender."
+Endorsement  Year,dt_yr_endorse,
+Endorsement Month ,dt_mo_endorse,
