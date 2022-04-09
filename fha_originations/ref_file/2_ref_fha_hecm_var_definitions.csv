@@ -1,0 +1,19 @@
+var_name_friendly,var_name,var_description
+Property State,prop_st_abb,Section of the Act Code(SOA).  One or more ADP Codes are grouped under a Section of the Act.
+Property County,prop_city,"Current County Name, blank if address does not geocode using  Census 2000."
+Property City,prop_cnty,The official 2-letter US Postal Service abbreviation for the property state.
+Property Zip,prop_zip5,Postal zip code where the property is located.
+Originating Mortgagee Sponsor Originator,orig_nm,Identifies the parent company of the lender that originated the loan.  This 5-digit number remains unchanged even after the loan has been sold a number of times
+Originating Mortgagee Number,orig_id,Name of the originating lender.
+Sponsor Name,sponsor_nm,Mortgagee sponsoring the loan or mortgage for the originator. Sponsor Mortgagee underwrites the loan and decides whether the borrower represents an acceptable credit risk for HUD.
+Sponsor_Number,sponsor_id,The 5-digit lender identification number of the parent company which is the sponsoring financial institution with direct endorsement approval.
+Sponsor Originator,sponsored_orig,Name of the sponsored originator (may be either non-FHA approved or FHA-approved) that is originating loans for FHA- approved sponsoring lenders.
+Current Servicer ID,servicer_curr,The ten position mortgagee number assigned by HUD to the current servicer of the loan.
+Previous Servicer,servicer_prev,The previous mortgagee number indicates the last mortgagee number before it was transferred to the current mortgagee number.
+Hecm Type,hecm_typ,One character code that indicates the category: H = Hecm for Purchase; N = Hecm Tradition and R = Hecm Refinance.
+Rate Type,rate_typ,Rate type for each loan.  Values:  F = Fixed; A = Annual Adjustable; and M = Monthly Adjustable.
+Interest Rate,int_rate,"The Interest rate charged annually by the mortgagee,  in accordance with the mortgage note of deed of trust note Rate is established at the time of Firm Commitment."
+Initial Principal Limit,initial_principal,The initial principal limit established on the loan at closing. It is the present value of loan proceeds that are available to the borrower. 
+Maximum Claim Amount,max_claim_insurance,The maximum claim amount insured for each loan.
+Endorsement Year,dt_yr_endorse,The year HUD endorses (issues certificate  of insurance) for the loan and notifies the lender.
+Endorsement Month,dt_mo_endorse,The month HUD endorses (issues certificate  of insurance) for the loan and notifies the lender.
